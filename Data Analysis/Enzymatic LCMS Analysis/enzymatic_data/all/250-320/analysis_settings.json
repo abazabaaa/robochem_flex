@@ -1,0 +1,25 @@
+{
+    "analysis_settings": {
+        "baseline_model": "flatfit",
+        "baseline_smoothness": 1.0,
+        "baseline_smooth_filter": false,
+        "min_rel_prominence": 0.001,
+        "min_prominence": 10.0,
+        "border_max_peak_cutoff": 0.5,
+        "split_threshold": 0.9,
+        "explained_threshold": 0.99,
+        "expand_peak_boarders": true,
+        "peak_model": "Bemg",
+        "max_peak_comps": 1,
+        "max_peak_distance": 1.0,
+        "min_spectrum_correl": 0.99,
+        "min_elution_time": 2.8,
+        "max_elution_time": 6.0,
+        "peak_maxima_identification": "max",
+        "min_wavelength": 250.0,
+        "max_wavelength": 320.0,
+        "min_rel_integral": 0.01,
+        "relaxe_concs": 1,
+        "__classname__": "ProcessingSettings"
+    }
+   }

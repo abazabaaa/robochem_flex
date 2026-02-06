@@ -1,0 +1,13 @@
+StockID,Solvent,Conc_SM,Conc_styrene,Conc_Ru(bpy),Conc_4CzIPN,Conc_Ir(dFCF3),Conc_Ir(ppy),Conc_Sc(OTf)3,Conc_tBuPybox,Conc_tBuiPrbox,Conc_benzylPybox,Conc_iPrpybox,Conc_AcOiPr
+Stock_SM,MeCN,300,0,0,0,0,0,0,0,0,0,0,0
+Stock_Sty,MeCN,0,2500,0,0,0,0,0,0,0,0,0,0
+Stock_Ru,MeCN,0,0,18,0,0,0,0,0,0,0,0,0
+Stock_4Cz,MeCN,0,0,0,18,0,0,0,0,0,0,0,0
+Stock_IrCF3,MeCN,0,0,0,0,18,0,0,0,0,0,0,0
+Stock_Ir,MeCN,0,0,0,0,0,18,0,0,0,0,0,0
+Stock_Sc,MeCN,0,0,0,0,0,0,60,0,0,0,0,0
+Stock_tBupybox,MeCN,0,0,0,0,0,0,0,100,0,0,0,0
+Stock_tBuIprbox,MeCN,0,0,0,0,0,0,0,0,100,0,0,0
+Stock_benzylpybox,MeCN,0,0,0,0,0,0,0,0,0,100,0,0
+Stock_iPrpybox,MeCN,0,0,0,0,0,0,0,0,0,0,100,0
+Stock_AcOiPr,MeCN,0,0,0,0,0,0,0,0,0,0,0,300

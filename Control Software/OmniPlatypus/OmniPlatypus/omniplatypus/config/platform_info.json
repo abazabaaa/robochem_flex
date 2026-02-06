@@ -1,0 +1,9 @@
+{
+  "Perry": {
+    "note": "todo: this file should be generated and read-in by the platypus, but for now it is not...",
+    "Volume before Phase Sensor (ps_handler_out)" : "128 uL",
+    "Volume before Phase Sensor (ps_reactor_in)" : "2006 uL",
+    "Volume before Phase Sensor (ps_reactor_out) (reactor volume)" : "3942.8 uL",
+    "Volume before Phase Sensor (ps_out)": "783 uL"
+  }
+}

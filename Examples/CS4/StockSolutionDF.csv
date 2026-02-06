@@ -1,0 +1,9 @@
+StockID,Solvent,Conc_SM,Conc_HCOONa,Conc_NAD,Conc_FDH,Conc_Pp,Conc_Aa,Conc_Pf,Conc_Cm
+Stock_SM,DMSO,100,0,0,0,0,0,0,0
+Stock_HCOONa,KPI_buffer,0,1000,0,0,0,0,0,0
+Stock_NAD,KPI_buffer,0,0,50,0,0,0,0,0
+Stock_FDH,KPI_buffer,0,0,0,0.05,0,0,0,0
+Stock_Pp,KPI_buffer,0,0,0,0,0.1,0,0,0
+Stock_Aa,KPI_buffer,0,0,0,0,0,0.1,0,0
+Stock_Pf,KPI_buffer,0,0,0,0,0,0,0.1,0
+Stock_Cm,KPI_buffer,0,0,0,0,0,0,0,0.1

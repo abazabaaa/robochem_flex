@@ -1,0 +1,51 @@
+VialID,VialName,StockID,Volume,Sampler,Holder,Position,Type,Counter,Viable
+0x001,sm_vial,Stock_SM,4000,Sampler_cnc,holder_D,A1,Stock,0,TRUE
+0x002,KPI_sol,KPI_buffer,10000,Sampler_cnc,holder_F,B1,Solvent,0,TRUE
+0x017,KPI_wash,Not a Stock,10000,Sampler_cnc,holder_F,A1,Cleaning,0,TRUE
+0x018,N2,Not a Stock,0,Sampler_cnc,holder_A,D1,Gas,0,TRUE
+0x019,Mixing,Not a Stock,0,Sampler_cnc,holder_A,D2,Mixing,0,TRUE
+0x020,Sample_1,Not a Stock,0,Collector_cnc,holder_B,A1,Sample,0,TRUE
+0x021,Sample_2,Not a Stock,0,Collector_cnc,holder_B,A2,Sample,0,TRUE
+0x022,Sample_3,Not a Stock,0,Collector_cnc,holder_B,A3,Sample,0,TRUE
+0x023,Sample_4,Not a Stock,0,Collector_cnc,holder_B,A4,Sample,0,TRUE
+0x024,Sample_5,Not a Stock,0,Collector_cnc,holder_B,A5,Sample,0,TRUE
+0x025,Sample_6,Not a Stock,0,Collector_cnc,holder_B,A6,Sample,0,TRUE
+0x026,Sample_7,Not a Stock,0,Collector_cnc,holder_B,B1,Sample,0,TRUE
+0x027,Sample_8,Not a Stock,0,Collector_cnc,holder_B,B2,Sample,0,TRUE
+0x028,Sample_9,Not a Stock,0,Collector_cnc,holder_B,B3,Sample,0,TRUE
+0x029,Sample_10,Not a Stock,0,Collector_cnc,holder_B,B4,Sample,0,TRUE
+0x030,Sample_11,Not a Stock,0,Collector_cnc,holder_B,B5,Sample,0,TRUE
+0x031,Sample_12,Not a Stock,0,Collector_cnc,holder_B,B6,Sample,0,TRUE
+0x032,Sample_13,Not a Stock,0,Collector_cnc,holder_B,C1,Sample,0,TRUE
+0x033,Sample_14,Not a Stock,0,Collector_cnc,holder_B,C2,Sample,0,TRUE
+0x034,Sample_15,Not a Stock,0,Collector_cnc,holder_B,C3,Sample,0,TRUE
+0x035,Sample_16,Not a Stock,0,Collector_cnc,holder_B,C4,Sample,0,TRUE
+0x036,Sample_17,Not a Stock,0,Collector_cnc,holder_B,C5,Sample,0,TRUE
+0x037,Sample_18,Not a Stock,0,Collector_cnc,holder_B,C6,Sample,0,TRUE
+0x038,Sample_19,Not a Stock,0,Collector_cnc,holder_B,D1,Sample,0,TRUE
+0x039,Sample_20,Not a Stock,0,Collector_cnc,holder_B,D2,Sample,0,TRUE
+0x040,Sample_21,Not a Stock,0,Collector_cnc,holder_B,D3,Sample,0,TRUE
+0x041,Sample_22,Not a Stock,0,Collector_cnc,holder_B,D4,Sample,0,TRUE
+0x042,Sample_23,Not a Stock,0,Collector_cnc,holder_B,D5,Sample,0,TRUE
+0x043,Sample_24,Not a Stock,0,Collector_cnc,holder_B,D6,Sample,0,TRUE
+0x044,Sample_25,Not a Stock,0,Collector_cnc,holder_B,E1,Sample,0,TRUE
+0x045,Sample_26,Not a Stock,0,Collector_cnc,holder_B,E2,Sample,0,TRUE
+0x046,Sample_27,Not a Stock,0,Collector_cnc,holder_B,E3,Sample,0,TRUE
+0x047,Sample_28,Not a Stock,0,Collector_cnc,holder_B,E4,Sample,0,TRUE
+0x048,Sample_29,Not a Stock,0,Collector_cnc,holder_B,E5,Sample,0,TRUE
+0x049,Sample_30,Not a Stock,0,Collector_cnc,holder_B,E6,Sample,0,TRUE
+0x050,Sample_31,Not a Stock,0,Collector_cnc,holder_B,F1,Sample,0,TRUE
+0x051,Sample_32,Not a Stock,0,Collector_cnc,holder_B,F2,Sample,0,TRUE
+0x052,Sample_33,Not a Stock,0,Collector_cnc,holder_B,F3,Sample,0,TRUE
+0x053,Sample_34,Not a Stock,0,Collector_cnc,holder_B,F4,Sample,0,TRUE
+0x054,Sample_35,Not a Stock,0,Collector_cnc,holder_B,F5,Sample,0,TRUE
+0x055,Sample_36,Not a Stock,0,Collector_cnc,holder_B,F6,Sample,0,TRUE
+0x056,formate_vial,Stock_HCOONa,4000,Sampler_cnc,holder_D,B1,Stock,0,TRUE
+0x057,NAD_vial,Stock_NAD,4000,Sampler_cnc,holder_D,C1,Stock,0,TRUE
+0x058,FDH_vial,Stock_FDH,1500,Sampler_cnc,holder_E,A1,Stock,0,TRUE
+0x060,AA_vial,Stock_Aa,1500,Sampler_cnc,holder_E,A3,Stock,0,TRUE
+0x061,PP_vial,Stock_Pp,1500,Sampler_cnc,holder_E,A2,Stock,0,TRUE
+0x062,PF_vial,Stock_Pf,1500,Sampler_cnc,holder_E,A4,Stock,0,TRUE
+0x063,Cm_vial,Stock_Cm,1500,Sampler_cnc,holder_E,A5,Stock,0,TRUE
+156goy,Vial_CA_1,Not a Stock,10000,Sampler_cnc,holder_F,A2,CleaningAgent,0,TRUE
+galagx,Vial_CA_2,Not a Stock,10000,Sampler_cnc,holder_F,B2,CleaningAgent,0,TRUE

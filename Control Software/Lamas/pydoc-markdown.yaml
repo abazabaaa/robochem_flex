@@ -1,0 +1,15 @@
+loader:
+  search_path: ["lamas"]
+  modules:
+    - lamas
+  exclude:
+    - "Tests"
+    - "deprecated"
+    - "dist"
+    - "build"
+    - "log"
+    - "lamas.egg-info"
+
+renderer:
+  type: markdown
+  filename: "Docs//README.md"

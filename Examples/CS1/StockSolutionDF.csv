@@ -1,0 +1,10 @@
+StockID,Solvent,Conc_SM,Conc_Ru(bpy)Cl,Conc_Ru(bpy)PF6,Conc_Ir(ppy),Conc_Ir(CF3)ppy,Conc_5CzBN,Conc_TFAA,Conc_PyNO,Conc_4-PhPyNO
+Stock_SM,MeCN,1000,0,0,0,0,0,0,0,0
+Stock_RuCl,MeCN,0,3,0,0,0,0,0,0,0
+Stock_RuPF6,MeCN,0,0,3,0,0,0,0,0,0
+Stock_Irppy,MeCN,0,0,0,3,0,0,0,0,0
+Stock_IrCF3,MeCN,0,0,0,0,3,0,0,0,0
+Stock_5Cz,MeCN,0,0,0,0,0,3,0,0,0
+Stock_TFAA,MeCN,0,0,0,0,0,0,3500,0,0
+Stock_PyNO,MeCN,0,0,0,0,0,0,0,2000,0
+Stock_4PyNo,MeCN,0,0,0,0,0,0,0,0,2000

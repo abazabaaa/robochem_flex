@@ -1,0 +1,381 @@
+{
+  "Perry": {
+    "constants": {
+      "analysis": {
+        "NMR": {
+          "reactor_to_analysis_volume": 2200.0,
+          "slug_alignment_volume": 380.0,
+          "analysis_to_collector_volume": 4000.0,
+          "analysis_phase_sensor": "ps_nmr_in"
+        },
+        "UPLC": {
+          "reactor_to_analysis_volume": 1000.0,
+          "slug_alignment_volume": 50.0,
+          "analysis_to_collector_volume": 1550.0,
+          "analysis_phase_sensor": "ps_uplc_in"
+        },
+        "Raman": {
+          "reactor_to_analysis_volume": 1000.0,
+          "slug_alignment_volume": 540.0,
+          "analysis_to_collector_volume": 1800.0,
+          "analysis_phase_sensor": "ps_raman_in"
+        },
+        "Human": {
+          "reactor_to_analysis_volume": 0.0,
+          "slug_alignment_volume": 0.0,
+          "analysis_to_collector_volume": 0.0,
+          "analysis_phase_sensor": null
+        }
+      },
+      "sampling": {
+        "redirect_reactor_to_waste": false,
+        "sampler_injection_to_mixing_volume": 200.0,
+        "sampler_injection_port_volume": 40.0,
+        "sampler_to_reactor_max_volume": 1200.0,
+        "reactor_to_collector_max_volume": 1500.0,
+        "collector_ps_to_needle_volume": 35.0
+      },
+      "reaction": {
+        "redirect_reactor_to_waste": false,
+        "reactor_slug_park_volume": 1000.0
+      },
+      "cleaning": {
+        "clean_on_start": true,
+        "redirect_reactor_to_waste": false,
+        "cleaning_agent_volume": 800.0,
+        "platform_wash_volume": 5000.0,
+        "platform_wash_volume_on_slug_fail": 5000.0,
+        "platform_wash_flowrate": 3.0,
+        "injection_wash_volume": 2250.0,
+        "injection_wash_flowrate": 3.0,
+        "needle_wash_volume": 500.0,
+        "needle_wash_flowrate": 3.0,
+        "gas_purge_volume": 900.0,
+        "gas_purge_flowrate": 2.0,
+        "drying_time":180.0,
+        "drying_time_on_slug_fail":180.0
+      }
+    },
+    "devices": {
+      "Main_Pump_1": {
+        "tags": [
+          "liquid",
+          "flow",
+          "3w_valve"
+        ],
+        "class": "syringe_pump_nrg",
+        "serial": {
+          "known_device": "main_pump_op1"
+        },
+        "setup": {
+          "syringe_volume": "10.0mL",
+          "syringe_stepperml": "7755.0",
+          "max_flowrate": 30.0,
+          "valve": true,
+          "reservoir_valve_position": "OFF",
+          "aux-valve": true
+        }
+      },
+      "Sampler_pump": {
+        "tags": [
+          "liquid",
+          "flow",
+          "sampler",
+          "3w_valve",
+          "pump"
+        ],
+        "class": "syringe_pump_nrg",
+        "serial": {
+          "known_device": "LH_pump"
+        },
+        "setup": {
+          "syringe_volume": "1.00mL",
+          "syringe_stepperml": "78049.0",
+          "max_flowrate": 6.0,
+          "valve": true,
+          "reservoir_valve_position": "OFF",
+          "aux-valve": true
+        }
+      },
+      "Sampler_cnc": {
+        "tags": [
+          "liquid",
+          "sampler",
+          "handler"
+        ],
+        "class": "liquid_handler_sampler",
+        "serial": {
+          "known_device": "LH_cnc"
+        },
+        "setup": {
+          "needle_length": "51mm",
+          "safe_z": "-30.0mm",
+          "vial_top_z": "-34.5mm",
+          "locations": {
+            "injection_flow": {
+              "type": "injection_port",
+              "position": {
+                "x": "170.5mm",
+                "y": "281.25mm",
+                "z": "-29.5mm"
+              },
+              "injection_valve_position": "ON"
+            },
+            "injection_waste": {
+              "type": "injection_port",
+              "position": {
+                "x": "125.0mm",
+                "y": "281.0mm",
+                "z": "-29.5mm"
+              }
+            },
+            "holder_A": {
+              "type": "holder",
+              "position": {
+                "x": "132.25mm",
+                "y": "42.75mm"
+              },
+              "shape": "vial_GC_4ml_4x4"
+            },
+            "holder_B": {
+              "type": "holder",
+              "position": {
+                "x": "42.25mm",
+                "y": "42.0mm"
+              },
+              "shape": "vial_GC_4ml_4x4"
+            },
+            "holder_C": {
+              "type": "holder",
+              "position": {
+                "x": "132.5mm",
+                "y": "133.0mm"
+              },
+              "shape": "vial_GC_4ml_4x4"
+            },
+            "holder_D": {
+              "type": "holder",
+              "position": {
+                "x": "42.25mm",
+                "y": "132mm"
+              },
+              "shape": "vial_GC_4ml_4x4"
+            },
+            "holder_E": {
+              "type": "holder",
+              "position": {
+                "x": "131.5mm",
+                "y": "221.75mm"
+              },
+              "shape": "vial_GC_2ml_6x6"
+            },
+            "holder_F": {
+              "type": "holder",
+              "position": {
+                "x": "42.25mm",
+                "y": "222.5mm"
+              },
+              "shape": "vial_SD_10ml_3x3"
+            }
+          },
+          "sampling_pump": "Sampler_pump"
+        }
+      },
+      "Collector_cnc": {
+        "tags": [
+          "liquid",
+          "sampler",
+          "handler"
+        ],
+        "class": "liquid_handler_sampler",
+        "serial": {
+          "known_device": "FC_cnc"
+        },
+        "setup": {
+          "needle_length": "51mm",
+          "safe_z": "-49mm",
+          "vial_top_z": "-51.5mm",
+          "locations": {
+            "injection_waste": {
+              "type": "injection_port",
+              "position": {
+                "x": "164.5mm",
+                "y": "18.25mm",
+                "z": "-28.5mm"
+              }
+            },
+            "holder_B": {
+              "type": "holder",
+              "position": {
+                "x": "38.5mm",
+                "y": "80.0mm"
+              },
+              "shape": "vial_GC_2ml_6x6"
+            },
+            "holder_D": {
+              "type": "holder",
+              "position": {
+                "x": "38.5mm",
+                "y": "170.0mm"
+              },
+              "shape": "vial_GC_2ml_6x6"
+            },
+            "holder_F": {
+              "type": "holder",
+              "position": {
+                "x": "38.5mm",
+                "y": "260.0mm"
+              },
+              "shape": "vial_GC_2ml_6x6"
+            }
+          }
+        }
+      },
+      "Gpio_Array_1": {
+        "tags": [
+          "gas",
+          "2w_valve"
+        ],
+        "class": "gpio_array",
+        "serial": {
+          "known_device": "gpio_array_op1"
+        },
+        "setup": {
+          "array": {
+            "sv_injection_n2": {
+              "index": "D2",
+              "class": "solenoid_valve"
+            },
+            "fan_ika_cooling": {
+              "index": "D4",
+              "class": "fan"
+            }
+          }
+        }
+      },
+      "Phase_Sensor_Array_1": {
+        "tags": [
+          "sensor",
+          "phase"
+        ],
+        "class": "phase_sensor_array",
+        "serial": {
+          "known_device": "phase_array_op1"
+        },
+        "setup": {
+          "array": {
+            "ps_handler_out": {
+              "index": 0
+            },
+            "ps_reactor_in": {
+              "index": 1
+            },
+            "ps_reactor_out": {
+              "index": 2
+            },
+            "ps_out": {
+              "index": 3
+            }
+          }
+        }
+      },
+      "Phase_Sensor_Array_2": {
+        "tags": [
+          "sensor",
+          "phase"
+        ],
+        "class": "phase_sensor_array",
+        "serial": {
+          "known_device": "phase_array_op2"
+        },
+        "setup": {
+          "array": {
+            "ps_nmr_in": {
+              "index": 0
+            },
+            "ps_uplc_in": {
+              "index": 1
+            },
+            "ps_raman_in": {
+              "index": 2
+            }
+          }
+        }
+      },
+      "Light_Array": {
+        "tags": [
+          "reactor",
+          "light"
+        ],
+        "class": "light_array",
+        "serial": {
+          "known_device": "lights_array"
+        },
+        "setup": {
+          "array": {
+            "uflow_kessil": {
+              "index": 0
+            }
+          }
+        }
+      },
+      "heating_plate_IKA": {
+        "tags": [
+          "reactor",
+          "temperature"
+        ],
+        "class": "heating_plate_IKA",
+        "serial": {
+          "known_device": "heating_plate_IKA"
+        }
+      },
+      "Raman": {
+        "tags": [
+          "ip_socket",
+          "analytics",
+          "raman"
+        ],
+        "class": "rama_berry",
+        "IP": {
+          "host": "192.168.1.1",
+          "port": 99999,
+          "ssh_host": "Raman",
+          "keys": "~/.ssh/id_rsa"
+        }
+      },
+      "UPLC": {
+        "tags": [
+          "analytics",
+          "UPLC",
+          "HPLC",
+          "MS",
+          "DAD"
+        ],
+        "class": "HPLCClient",
+        "IP": {
+          "host": "192.168.1.2",
+          "port": 99999
+        }
+      },
+      "NMR": {
+        "tags": [
+          "analytics",
+          "NMR"
+        ],
+        "class": "spinsolve_client",
+        "IP": {
+          "host": "192.168.1.3",
+          "port": 99999
+        }
+      }
+    },
+    "Gui_Specs": {
+      "Supported_Experiments": [
+        "PhotochemicalReaction",
+        "PhotochemicalReaction - dry run",
+        "ThermochemicalReaction"
+      ]
+    }
+  }
+}
+

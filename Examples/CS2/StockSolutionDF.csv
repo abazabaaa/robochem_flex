@@ -1,0 +1,12 @@
+StockID,Solvent,Conc_4-Ph py,Conc_EtOH,Conc_pTsOH,Conc_Ir(ppy)2(dtbbpy)PF6,Conc_Ir(dF(CF3)ppy)2(dtbbpy)PF6,Conc_Ir(ppy)3,Conc_Ru(bpy)3(PF6)2,Conc_HSCH2COOMe,Conc_HSCH2(Me)COOMe
+Stock_4PhPy,DMSO,500,0,0,0,0,0,0,0,0
+Stock_EtOH,DMSO,0,500,0,0,0,0,0,0,0
+Stock_EtOH_HC,DMSO,0,2500,0,0,0,0,0,0,0
+Stock_EtOH_VHC,DMSO,0,12500,0,0,0,0,0,0,0
+Stock_pTsOH,DMSO,0,0,1000,0,0,0,0,0,0
+Stock_Ir(dtbbpy),DMSO,0,0,0,3,0,0,0,0,0
+Stock_Ir(dF(CF3)ppy),DMSO,0,0,0,0,3,0,0,0,0
+Stock_Ir(ppy)3,DMSO,0,0,0,0,0,3,0,0,0
+Stock_Ru,DMSO,0,0,0,0,0,0,3,0,0
+Stock_Thiol,DMSO,0,0,0,0,0,0,0,50,0
+Stock_Thiol(Me),DMSO,0,0,0,0,0,0,0,0,50

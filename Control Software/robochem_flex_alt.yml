@@ -1,0 +1,33 @@
+name: robochem_flex_alt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - python-dotenv
+  - numpy
+  - pandas
+  - streamlit=1.38
+  - seaborn
+  - openpyxl
+  - pillow
+  - pymoo
+  - colorama
+  - pre-commit
+  - pytorch
+  - botorch
+  - gpytorch
+  - black
+  - pre-commit
+  - paramiko
+  - fastapi
+  - pip
+  - pip:
+      - pyDOE
+      - uvicorn[standard]
+      - bronkhorst-propar==1.2.0
+      - nmrglue==0.11
+      - pause==0.3
+
+
+

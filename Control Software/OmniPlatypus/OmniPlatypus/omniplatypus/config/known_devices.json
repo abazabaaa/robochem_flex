@@ -1,0 +1,115 @@
+{
+    "solarBPR": {
+        "vid": 6790,
+        "pid": 29987,
+        "manufacturer": "wch.cn",
+        "custom_id": "PRESSURE_CONTROL_0"
+    },
+    "solarLight": {
+        "serial_number": "85735313732351206202",
+        "vid": 9025,
+        "pid": 67,
+        "manufacturer": "Arduino LLC (www.arduino.cc)"
+    },
+    "dummy_Light": {
+        "serial_number": "75033303234351E082E0",
+        "vid": 9025,
+        "pid": 67,
+        "manufacturer": "Arduino LLC (www.arduino.cc)"
+    },
+    "MFC_CO2": {
+        "serial_number": "AB0M8V5TA",
+        "vid": 1027,
+        "pid": 24577,
+        "manufacturer": "FTDI"
+    },
+    "MFC_H2": {
+        "serial_number": "AB0MSD6GA",
+        "vid": 1027,
+        "pid": 24577,
+        "manufacturer": "FTDI"
+    },
+    "SolarTemperature": {
+        "serial_number": "AV0KD2QZA",
+        "vid": 1027,
+        "pid": 24577,
+        "manufacturer": "FTDI"
+    },
+    "N2_mfc": {
+        "serial_number": "AB0MVNKHA",
+        "vid": 1027,
+        "pid": 24577,
+        "manufacturer": "FTDI"
+    },
+    "LH_cnc": {
+        "serial_number": "75131313932351705111",
+        "vid": 9025,
+        "pid": 67,
+        "manufacturer": "Arduino LLC (www.arduino.cc)"
+    },
+    "phase_sensor_array_test": {
+        "vid": 6790,
+        "pid": 29987,
+        "manufacturer": "wch.cn",
+        "custom_id": "PHASE_ARRAY_0"
+    },
+    "test_gpio": {
+        "vid": 6790,
+        "pid": 29987,
+        "manufacturer": "wch.cn",
+        "custom_id": "GPIO_TEST"
+    },
+    "gpio_array_op1": {
+        "serial_number": "242333234353517101B0",
+        "vid": 9025,
+        "pid": 67,
+        "manufacturer": "Arduino LLC (www.arduino.cc)"
+    },
+    "phase_array_op1": {
+        "serial_number": "44236313735351F0C261",
+        "vid": 9025,
+        "pid": 67,
+        "manufacturer": "Arduino LLC (www.arduino.cc)"
+    },
+    "LH_pump": {
+        "serial_number": "24235313636351D0C251",
+        "vid": 9025,
+        "pid": 67,
+        "manufacturer": "Arduino LLC (www.arduino.cc)"
+    },
+    "main_pump_op1": {
+        "serial_number": "44236313735351702041",
+        "vid": 9025,
+        "pid": 67,
+        "manufacturer": "Arduino LLC (www.arduino.cc)"
+    },
+    "dummy_pump": {
+        "serial_number": "750333032343514170E0",
+        "vid": 9025,
+        "pid": 67,
+        "manufacturer": "Arduino LLC (www.arduino.cc)"
+    },
+    "lights_array": {
+        "serial_number": "242353136363511102F0",
+        "vid": 9025,
+        "pid": 67,
+        "manufacturer": "Arduino LLC (www.arduino.cc)"
+    },
+    "FC_cnc": {
+        "serial_number": "24233323435351C0A281",
+        "vid": 9025,
+        "pid": 67,
+        "manufacturer": "Arduino LLC (www.arduino.cc)"
+    },
+    "heating_plate_IKA": {
+        "vid": 1155,
+        "pid": 22336,
+        "manufacturer": "Microsoft"
+    },
+    "phase_array_op2": {
+        "serial_number": "035363733323515073C1",
+        "vid": 9025,
+        "pid": 67,
+        "manufacturer": "Microsoft"
+    }
+}

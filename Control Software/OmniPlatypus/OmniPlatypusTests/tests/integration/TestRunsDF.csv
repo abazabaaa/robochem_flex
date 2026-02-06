@@ -1,0 +1,13 @@
+residence_time,light_intensity,slug_volume,rinse,bubble_volume,intercomponent_bubble_volume,mix_before_injection,mix_after_injection,collection_vial,flowrate_sampling,slug_preparation,sampling,premix
+30.0,0.0,500.0,1.0,50.0,0.2,6.0,0.0,C_A1,0.25,middle,direct,0.4
+30.0,0.0,500.0,1.0,50.0,0.2,6.0,0.0,C_A2,0.25,middle,direct,0.2
+30.0,0.0,500.0,1.0,50.0,0.2,6.0,0.0,C_A3,0.25,middle,direct,0.1
+30.0,0.0,500.0,1.0,50.0,0.2,6.0,0.0,C_A4,0.25,middle,direct,0.05
+30.0,0.0,500.0,1.0,50.0,0.2,6.0,0.0,C_B1,0.25,middle,direct,0.4
+30.0,0.0,500.0,1.0,50.0,0.2,6.0,0.0,C_B2,0.25,middle,direct,0.2
+30.0,0.0,500.0,1.0,50.0,0.2,6.0,0.0,C_B3,0.25,middle,direct,0.1
+30.0,0.0,500.0,1.0,50.0,0.2,6.0,0.0,C_B4,0.25,middle,direct,0.05
+30.0,0.0,500.0,1.0,50.0,0.2,6.0,0.0,C_C1,0.25,middle,direct,0.4
+30.0,0.0,500.0,1.0,50.0,0.2,6.0,0.0,C_C2,0.25,middle,direct,0.2
+30.0,0.0,500.0,1.0,50.0,0.2,6.0,0.0,C_C3,0.25,middle,direct,0.1
+30.0,0.0,500.0,1.0,50.0,0.2,6.0,0.0,C_C4,0.25,middle,direct,0.05

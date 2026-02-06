@@ -1,0 +1,19 @@
+name: Opti_plotting_env_2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - matplotlib
+  - numpy
+  - openpyxl
+  - pandas
+  - pip
+  - pip:
+    - plotly
+    - kaleido
+    - pypalettes
+    - notebook
+  - scikit-learn
+  - scipy
+  - seaborn

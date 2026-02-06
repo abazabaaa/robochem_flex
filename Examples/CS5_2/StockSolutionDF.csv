@@ -1,0 +1,14 @@
+StockID,Solvent,Conc_3NH3pyridine,Conc_3BrCF3pyridine,Conc_XPhos,Conc_DBU,Conc_BrettPhos,Conc_SPhos,Conc_P(tBu)3,Conc_EPhos,Conc_PCy3,Conc_MorDalPhos,Conc_TMG,Conc_Barton,Conc_SM
+Stock_SM1,DMF,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,1000.0
+Stock_CP1,DMF,1000,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0
+Stock_CP2,DMF,0,1000,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0
+Stock_xphos,DMF,0,0,12.5,0,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0
+Stock_DBU,DMF,0,0,0.0,1000,0.0,0.0,0.0,0.0,0.0,0.0,0,0,0.0
+Stock_BrettPhos,DMF,0,0,0.0,0,12.5,0.0,0.0,0.0,0.0,0.0,0,0,0.0
+Stock_SPhos,DMF,0,0,0.0,0,0.0,12.5,0.0,0.0,0.0,0.0,0,0,0.0
+Stock_PtBu3,DMF,0,0,0.0,0,0.0,0.0,12.5,0.0,0.0,0.0,0,0,0.0
+Stock_EPhos,DMF,0,0,0.0,0,0.0,0.0,0.0,12.5,0.0,0.0,0,0,0.0
+Stock_PCy3,DMF,0,0,0.0,0,0.0,0.0,0.0,0.0,12.5,0.0,0,0,0.0
+Stock_MorDalPhos,DMF,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,12.5,0,0,0.0
+Stock_TMG,DMF,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,1000,0,0.0
+Stock_Barton,DMF,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0,1000,0.0

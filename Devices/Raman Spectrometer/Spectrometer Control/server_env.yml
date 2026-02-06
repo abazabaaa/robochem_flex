@@ -1,0 +1,10 @@
+name: ramaberry_server_env
+channels:
+  - conda-forge
+dependencies:
+  - scipy
+  - pandas
+  - matplotlib
+  - netifaces
+  - pyinstaller
+  - tk

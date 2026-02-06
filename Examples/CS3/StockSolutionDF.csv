@@ -1,0 +1,9 @@
+StockID,Solvent,Conc_4-Bromo-Benz,Conc_D2O,Conc_BP_H,Conc_BP_F,Conc_thiol_1,Conc_thiol_2,Conc_thiol_4,Conc_thiol_3
+Stock_SM,MeCN,2500,0,0,0,0,0,0,0
+Stock_D2O,MeCN,0,36500,0,0,0,0,0,0
+Stock_BPH,MeCN,0,0,175,0,0,0,0,0
+Stock_BPF,MeCN,0,0,0,175,0,0,0,0
+Stock_T1,MeCN,0,0,0,0,175,0,0,0
+Stock_T2,MeCN,0,0,0,0,0,175,0,0
+Stock_T4,MeCN,0,0,0,0,0,0,175,0
+Stock_T3,MeCN,0,0,0,0,0,0,0,175

@@ -1,0 +1,8 @@
+"""
+File: __init__.py
+Author: Simone Pilon, Elia Savino - Noël Research Group - 2023
+GitHub: https://github.com/simone16, github.com/EliaSavino
+
+Description: Tests for the omniplatypus devices integration. These tests require the platform to be physically
+    connected.
+"""
