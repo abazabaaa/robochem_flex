@@ -29,6 +29,7 @@ AsyncStepperDriver::AsyncStepperDriver(uint8_t _pin_enable, uint8_t _pin_dir, ui
 	ctr_steps_acc_max = ACC_STEPS_INCREMENT;
 	ctr_steps_acc_max_float = ACC_STEPS_INCREMENT;
 	zeroing = false;
+	moving = false;
 	enabled = false;
 #ifdef WITH_ENCODER
 	steps_since_int = 0;
@@ -101,11 +102,17 @@ void AsyncStepperDriver::stop()
 		zeroing = false;
 	}
 	relative_position = 0;
+	moving = false;
 }
 
 long AsyncStepperDriver::steps_left()
 {
 	return relative_position;
+}
+
+bool AsyncStepperDriver::ready()
+{
+	return !moving;
 }
 
 long AsyncStepperDriver::steps_abs()
@@ -217,6 +224,10 @@ void AsyncStepperDriver::timer_isr()
 			last_error = MOTOR_ERROR_BLOCKED;
 		}
 #endif  // WITH_ENCODER
+		if (relative_position == 0)
+		{
+			moving = false;
+		}
 	}
 	else if (relative_position < 0)
 	{
@@ -245,7 +256,12 @@ void AsyncStepperDriver::timer_isr()
 			last_error = MOTOR_ERROR_BLOCKED;
 		}
 #endif  // WITH_ENCODER
+		if (relative_position == 0)
+		{
+			moving = false;
+		}
 	}
+	// do nothing if relative_position == 0
 }
 
 
@@ -273,6 +289,7 @@ void AsyncStepperDriver::start_move(long steps)
 		current_delay_float = float(MIN_DELAY_NO_ACC);
 		set_step_delay_now(MIN_DELAY_NO_ACC);
 	}
+	moving = true;
 	relative_position = steps;
 }
 
@@ -304,6 +321,7 @@ void AsyncStepperDriver::accelerate()
 void AsyncStepperDriver::endstop_stop()
 {
 	relative_position = 0;
+	moving = false;
 	if (zeroing)
 	{
 		zeroing = false;

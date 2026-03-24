@@ -261,7 +261,7 @@ void parse_serial()
 					break;
 				case 7:
 					// Syringe pump flow [mL/min]
-					Serial.println(flowrate);
+					Serial.println(flowrate, 4);
 					break;
 				case 8:
 					// Motor enable
@@ -587,7 +587,7 @@ void loop()
 				Serial.println(ACK_AUX_VALVE);
 			}
 		}
-		if (moving_motor && motor.steps_left() == 0)
+		if (moving_motor && motor.ready())
 		{
 			moving_motor = false;
 			if (motor.last_error != MOTOR_ERROR_NO_ERROR) {

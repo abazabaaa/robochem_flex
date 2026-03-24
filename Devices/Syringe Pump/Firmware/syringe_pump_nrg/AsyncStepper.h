@@ -113,6 +113,13 @@ class AsyncStepperDriver
 		long steps_left();
 
 		/**
+		 * Is the motor moving?
+		 *
+		 * @return True if it is not moving.
+		 */
+		bool ready();
+
+		/**
 		 * Absolute number of steps since zero() call.
 		 * This keeps track of the absolute position of the motor.
 		 *
@@ -190,6 +197,7 @@ class AsyncStepperDriver
 		long absolute_position; /**< Position relative to zero in steps.*/
 		long relative_position; /**< Position relative to destination of last move.*/
 		bool zeroing;           /**< True if motor is moving to zero axis.*/
+		bool moving;            /**< True if motor is moving (also for zeroing).*/
 		bool enabled;           /**< Keep track of motor enable status.*/
 
 
